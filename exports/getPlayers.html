@@ -1,1 +1,43 @@
 
+
+<head>
+    <style>
+      body {
+        background-color: rgb(51, 51, 51);
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+      }
+      a {
+        color: rgb(112, 112, 112)
+      }
+      a:visited {
+        color: rgb(112, 112, 112)
+      }
+      a:hover {
+        color: rgb(79, 79, 79)
+      }
+      #usage {
+         display: block;
+      }
+    </style>
+  </head>
+  
+  
+  <body>
+    <p1>local players = exports.WrenchOS:getPlayers()</p1>
+    <br>
+    <p2>plr: Returns a table of every player in game each player has the following data | identifier, idtoken, charid, firstname, lastname, cash, bank, plrid, job |</p2>
+    <br>
+    <div id="usage">
+        <p3>for _, player in pairs(exports.WrenchOS:getPlayers()) do </p3>
+        <br>
+        <p4>  print(player.bank)</p4>
+        <br>
+        <p5>end</p5>
+    </div>
+  </body>
+  
+  
+  
+  
