@@ -4,33 +4,49 @@
       background-color: rgb(51, 51, 51);
       color: white;
       text-align: center;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
-    a {
-      color: rgb(112, 112, 112)
-    }
-    a:visited {
-      color: rgb(112, 112, 112)
-    }
-    a:hover {
-      color: rgb(79, 79, 79)
+    h1 {
+      font-size: 36px;
+      margin-top: 30px;
+      margin-bottom: 40px;
     }
     div {
       display: block;
       border-radius: 18px;
-      width: 50%;
+      width: 40%;
       background-color: rgb(30, 30, 30);
       margin: auto;
+      padding: 20px;
+    }
+    a {
+      display: inline-block;
+      color: white;
+      background-color: rgb(112, 112, 112);
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 10px 0;
+      border-radius: 8px;
+      font-size: 18px;
+      width: 70%;
+    }
+    a:hover {
+      background-color: rgb(79, 79, 79);
+    }
+    a:visited {
+      color: white;
     }
   </style>
 </head>
-
 
 <body>
   <h1>WrenchOS Exports</h1>
   <div>
     <a href="exports/addMoney.html">addMoney</a>
     <br>
-    <a href="exports/withdrawMoney.html">removeMoney</a>
+    <a href="exports/withdrawMoney.html">withdrawMoney</a> <!-- Consistent naming -->
     <br>
     <a href="exports/getPlayer.html">getPlayer</a>
     <br>
@@ -40,5 +56,4 @@
     <br>
     <a href="exports/getPlayers.html">getPlayers</a>
   </div>
-  
 </body>
