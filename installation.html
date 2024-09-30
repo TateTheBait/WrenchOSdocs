@@ -3,30 +3,60 @@
     body {
       background-color: rgb(51, 51, 51);
       color: white;
+      font-family: Arial, sans-serif;
       text-align: center;
+      margin: 0;
+    }
+    h1 {
+      font-size: 32px;
+      margin-top: 20px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      margin: 10px 0;
     }
     a {
-      color: rgb(112, 112, 112)
+      color: rgb(112, 112, 112);
+      text-decoration: none;
     }
     a:visited {
-      color: rgb(112, 112, 112)
+      color: rgb(112, 112, 112);
     }
     a:hover {
-      color: rgb(79, 79, 79)
+      color: rgb(79, 79, 79);
+    }
+    .container {
+      padding: 20px;
+    }
+    ol {
+      text-align: left;
+      display: inline-block;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #d1d1d1;
     }
   </style>
 </head>
 
-
 <body>
-  <h1>Installation:</h1>
-  <p5>DEPENDENCIES: You will need Ox_lib and OxMySql for this framework.</p5>
-  <br>
-  <p1>First, install the database using sql.sql, this will require the editing of lines 19 and 20 to set your database.</p1>
-  <br>
-  <p2>Then drop WrenchOS into your server</p2>
-  <br>
-  <p3>After that you can config it to your liking.</p3>
-  <br>
-  <p4>If you need support, please join my discord at <a>https://discord.gg/tgreW3gM6B</a> :)</p4>
+  <div class="container">
+    <h1>Installation</h1>
+    <p class="highlight">Dependencies:</p>
+    <p>You will need <a href="https://github.com/overextended/ox_lib">Ox_lib</a> and <a href="https://github.com/overextended/oxmysql">OxMySql</a> for this framework.</p>
+
+    <p class="highlight">Follow the steps below to install WrenchOS:</p>
+    <ol>
+      <li>First, install the database using <code>sql.sql</code>. You will need to edit lines 19 and 20 to configure your database.</li>
+      <li>Next, drop the WrenchOS folder into your server's resources.</li>
+      <li>Afterward, configure WrenchOS to your liking by editing the config files as needed.</li>
+    </ol>
+
+    <p class="highlight">Need Support?</p>
+    <p>If you encounter any issues or need assistance, join my Discord community at 
+      <a href="https://discord.gg/tgreW3gM6B">https://discord.gg/tgreW3gM6B</a> for help :)</p>
+  </div>
 </body>
