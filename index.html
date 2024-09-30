@@ -1,30 +1,66 @@
 <head>
   <style>
     body {
-      background-color: rgb(51, 51, 51);
+      background-color: #333333;
       color: white;
+      font-family: Arial, sans-serif;
       text-align: center;
+      margin: 0;
     }
-    a {
-      color: rgb(112, 112, 112)
+    nav {
+      background-color: #222222;
+      padding: 10px;
     }
-    a:visited {
-      color: rgb(112, 112, 112)
+    nav a {
+      color: #707070;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      font-weight: bold;
     }
-    a:hover {
-      color: rgb(79, 79, 79)
+    nav a:hover {
+      color: #4f4f4f;
+    }
+    .container {
+      margin-top: 50px;
+    }
+    h1 {
+      margin-bottom: 40px;
+    }
+    a.button {
+      background-color: #707070;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 20px;
+    }
+    a.button:hover {
+      background-color: #4f4f4f;
+    }
+    footer {
+      margin-top: 50px;
+      color: #707070;
     }
   </style>
 </head>
 
-
 <body>
-  <h1>WrenchOS Documentation</h1>
-  <a href="exports.html">Exports</a>
-  <br>
-  <a href="description.html">About WrenchOS</a>
-  <br>
-  <a href="installation.html">How to install</a>
-  <br>
-  <a href="https://github.com/TateTheBait/WrenchOS-FRAMEWORK-/tree/main">Download Here!</a>
+  <nav>
+    <a href="exports.html">Exports</a>
+    <a href="description.html">About WrenchOS</a>
+    <a href="installation.html">How to Install</a>
+    <a href="events.html">Events</a> <!-- For your new Events page -->
+  </nav>
+
+  <div class="container">
+    <h1>WrenchOS Documentation</h1>
+    <p>Your guide to mastering WrenchOS, from installation to export usage.</p>
+    <a class="button" href="https://github.com/TateTheBait/WrenchOS-FRAMEWORK-/tree/main">Download WrenchOS</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 WrenchOS Framework. All rights reserved.</p>
+  </footer>
 </body>
